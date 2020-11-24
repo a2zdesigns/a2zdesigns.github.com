@@ -14,7 +14,8 @@ img {
 /************* End CSS RESET **************/
 
 body {
-	background:url(images/paper.png);
+	background:url("images/simon-berger-2JONUbTfN38-unsplash.jpg");
+	opacity: 50%;
 	color:#424242;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding:30px 0;
@@ -26,7 +27,7 @@ body {
 }
 
 header {
-	border-bottom: 3px solid #424242;
+	border-bottom: 3px dotted #757373;
 	padding-bottom:20px;
 }
 
@@ -40,7 +41,7 @@ section {
 }
 
 footer {
-	border-top: 3px solid #424242;
+	border-top: 3px dotted #757373;
 	padding-top:20px;
 }
 
@@ -69,8 +70,10 @@ h1, h2, h3 {
 }
 
 h1 {
+	font-family: 'dr-sugiyama', serif;
 	font-size:150%;
 	text-transform:uppercase;
+	color: #3D9B63;
 }
 
 header h1 {
