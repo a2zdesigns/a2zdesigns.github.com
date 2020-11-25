@@ -14,8 +14,7 @@ img {
 /************* End CSS RESET **************/
 
 body {
-	background:url("images/simon-berger-2JONUbTfN38-unsplash.jpg");
-	opacity: 50%;
+	background:url("images/solidcolor1500.png");
 	color:#424242;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding:30px 0;
@@ -57,8 +56,8 @@ footer {
 	padding:10px;
 }
 
-.alignleft {
-	float:left;
+.alignright {
+	float:right;
 	margin: 0 10px 5px 0;
 }
 
@@ -67,6 +66,10 @@ footer {
 h1, h2, h3 {
 	font-family: 'Bitter', serif;
 	margin-bottom:.5em;
+}
+
+h2 {
+	font-size: 1.5em;
 }
 
 h1 {
